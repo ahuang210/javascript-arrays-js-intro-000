@@ -38,5 +38,5 @@ var destructivelyRemoveElementFromEndOfArray = array => {
 }
 
 var removeElementFromEndOfArray = array => {
-  array.slice(0, array.length - (array.slice(-2)))
+  array.slice(0, array.length - -1)
 }
